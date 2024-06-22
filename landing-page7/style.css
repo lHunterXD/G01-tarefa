@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1280px;
+}
+
+.header-conteiner{
+    position: relative;
+}
+
+.header-pointer{
+    background-color: rgba(19, 19, 70, 0.76);
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.location-pointer{
+    width: 20px;
+    margin-left: 20px;
+}
+
+.maps {
+    color: aliceblue;
+}
+
+.content-clock{
+    display: flex;
+}
+
+.header-clock{
+    width: 24px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+span{
+    color: aliceblue;
+}
+
+.min-hours{
+    margin-left: 4px;
+}
+
+.social-media{
+    color: aliceblue;
+    display: flex;
+    margin-left: 550px;
+}
+
+.social-phone{
+    width: 20px;
+
+
+}
+.phone-media {
+    margin-left: 10px;
+}
+.line{
+    margin-left: 20px;
+    height: 25px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.social{
+    width: 25px;
+    margin-left: 20px;
+}
+
+.nav-header{
+    display: flex;
+    height: 60px;
+}
+
+.nav-car{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    margin-left: 40px;
+}
+.drivin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.line-car{
+    border: 1px solid rgb(233, 233, 233);
+    margin-left: 20px;
+}
+nav{
+    width: 900px;
+}
+
+nav li {
+    display: inline-block;
+
+}
+.get-start{
+    background-color: rgb(255, 197, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    
+}
+
+.get-style{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+
