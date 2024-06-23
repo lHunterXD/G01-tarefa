@@ -89,14 +89,51 @@ span{
     border: 1px solid rgb(233, 233, 233);
     margin-left: 20px;
 }
-nav{
+.nav-conteiner{
     width: 900px;
-}
-
-nav li {
-    display: inline-block;
+    display: flex;
 
 }
+.nav-conteiner ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-left: 350px;
+    
+}
+.nav-conteiner li {
+    list-style-type:none;
+   
+   
+}
+.nav-conteiner a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-conteiner a:hover {
+    color:  rgb(255, 197, 39);
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    color: black;
+    position: absolute;
+}
+
 .get-start{
     background-color: rgb(255, 197, 39);
     display: flex;
@@ -113,4 +150,212 @@ nav li {
 }
 
 
+.conteiner-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.content-article span{
+    color: rgb(255, 197, 39);
+    font-weight: bold;
+
+
+}
+
+.content-article{
+
+    margin-top: 100px;
+    width: 50%;
+}
+.content-article p{
+    margin-top: 20px;
+    color: rgb(146, 146, 146);
+}
+
+.cards{
+    display: inline-block;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.cards img {
+    width: 30px;
+    height: 35px;
+}
+.content-cards {
+    display: flex;
+    align-items: center;
+}
+
+.content-cards h4{
+    margin-left: 10px;
+}
+
+.geracaotech{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.geracaotech img{
+    display: flex;
+    width: 470px;
+    border-radius: 10px;
+    
+    
+}
+
+.conteiner-aside {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+.top-aside {
+    margin-top: 50px;
+}
+.top-aside span{
+    color: rgb(255, 197, 39);
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.top-aside h1{
+    margin-top: 10px;
+}
+
+.conteiner-profiles {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 70px;
+}
+
+.profiles {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(228, 228, 228, 0.486);
+}
+
+.profiles img {
+
+   max-width: 200px;
+   height: 200px;
+   border-radius: 8px;
+
+
+}
+
+.profiles .allan{
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+
+}
+
+.profiles .kauan{
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+
+}
+
+.profiles p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.descricao{
+    font-family: 'Courier New', Courier, monospace
+    ;
+}
+
+.footer-conteiner {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(27, 65, 90);
+    
+}
+.footer-conteiner h2{
+    color: aliceblue;
+}
+.content-footer{
+    height: 250px;
+    margin-top: 20px;
+    align-items: center;
+ 
+
+}
+.nav-footer img{
+    width: 50px;
+}
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-footer p {
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 10px;
+    flex-wrap: wrap;
+
+}
+.footer-imgs{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.footer-imgs img{
+    width: 25px;
+    padding-bottom: 10px;
+}
+
+.footer-imgs p {
+    color: aliceblue;
+}
+
+.footer-imgs input {
+    height: 42px;
+}
+
+.footer-imgs button {
+    background-color: rgb(255, 197, 39);
+
+    color: aliceblue;
+    border: transparent;
+}
+
+.follows img{
+    margin-top: 20px;
+    width: 40px;
+}
+
+.rodape{
+    background-color: rgba(36, 52, 124, 0.685);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
 
